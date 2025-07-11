@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Sunny Kumar" />
+    <meta name="description" content="HTML Starter" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <!-- Bootstrap 5 -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+      integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK"
+      crossorigin="anonymous"
+    />
+    <!-- Native CSS Minified Version from SCSS -->
+    <link rel="stylesheet" href="./css/theme.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!--  Font Awesome CDN  -->
+    <script
+      src="https://kit.fontawesome.com/2ebe23cffd.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="code-container">
+      <!-- Main Body -->
+      <main
+        class="d-flex flex-column align-items-center justify-content-between"
+      >
+        <div class="content shadow-lg text-center">
+          <h1 class="my-5">#Rock #Paper #Scissors</h1>
+        </div>
+
+        <div class="choices">
+          <div class="choice" id="rock">
+            <img src="./images/rock.png" />
+          </div>
+          <div class="choice" id="paper">
+            <img src="./images/paper.png" />
+          </div>
+          <div class="choice" id="scissors">
+            <img src="./images/scissors.png" />
+          </div>
+        </div>
+
+        <div class="score-board">
+          <div class="score">
+            <p id="user-score">0</p>
+            <p id="username">You</p>
+          </div>
+          <div class="score">
+            <p id="comp-score">0</p>
+            <p>Machine</p>
+          </div>
+        </div>
+
+        <div class="msg-container">
+          <p id="msg">Choose any option to start ...</p>
+        </div>
+      </main>
+
+      <!-- Footer -->
+      <footer
+        class="py-1 shadow-lg d-flex flex-column flex-sm-row justify-content-around align-items-center"
+      >
+        <div class="social-buttons">
+          <a
+            href="https://www.linkedin.com/in/bunnycodec"
+            class="m-1"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin-in"></i
+          ></a>
+          <a
+            href="https://www.github.com/bunnycodec"
+            class="m-1"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/bit_2_byte/"
+            class="m-1"
+            target="_blank"
+          >
+            <i class="fab fa-instagram"></i
+          ></a>
+        </div>
+        <div class="sunnyKumar">
+          Designed & Coded by
+          <a href="https://www.linkedin.com/in/bunnycodec" target="_blank"
+            >Sunny Kumar</a
+          >
+        </div>
+      </footer>
+    </div>
+
+    <!-- Bootstrap 5 JS Bundled (Popper and B5) -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"
+      integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Native JS -->
+    <script src="app.js"></script>
+  </body>
+</html>
