@@ -28,7 +28,7 @@ A simple, responsive Rock Paper Scissors game built with HTML5, CSS3 (including 
 
 ## Live App
 
-- [rockpaperscissor.com]([https://rockpaperscissor.com](https://bunnycodec.github.io/rock-Paper-Scissors/))
+- [Rock Paper Scissor Game](https://bunnycodec.github.io/rock-Paper-Scissors/))
 
 ## Author
 
